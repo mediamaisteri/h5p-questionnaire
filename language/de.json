@@ -16,8 +16,7 @@
             "description": "Wähle eine Bibliothek"
           },
           {
-            "label": "Erforderliches Feld",
-            "default": false
+            "label": "Erforderliches Feld"
           }
         ]
       }
@@ -26,8 +25,7 @@
       "label": "Optionen für den Erfolgsbildschirm",
       "fields": [
         {
-          "label": "Erfolgsbildschirm aktivieren",
-          "default": true
+          "label": "Erfolgsbildschirm aktivieren"
         },
         {
           "label": "Füge ein Bild zum Erfolgsbildschirm hinzu",
@@ -52,6 +50,10 @@
             {
               "label": "Beschriftung für den \"Zurück\"-Button",
               "default": "Zurück"
+            },
+            {
+              "label": "Continue button label",
+              "default": "Continue"
             },
             {
               "label": "Beschriftung für den \"Weiter\"-Button",
@@ -86,6 +88,14 @@
           "label": "Text für die Beschriftung bei Erforderlichkeit",
           "default": "erforderlich",
           "description": "Text, der zusätzlich zum Sternchen darauf hinweist, dass eine Antwort erforderlich ist."
+        },
+        {
+          "label": "Title for the submit screen",
+          "default": "You successfully answered all of the questions"
+        },
+        {
+          "label": "Subtitle for the submit screen",
+          "default": "Click below to submit your answers"
         }
       ]
     }

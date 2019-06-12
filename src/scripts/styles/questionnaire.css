@@ -15,7 +15,7 @@
 .h5p-questionnaire-content {
   height: 100%;
   width: 100%;
-  flex: 1;
+  -webkit-flex: 1;
   overflow: auto;
 }
 
@@ -26,4 +26,8 @@
 
 .h5p-invalid-questionnaire {
   color: red;
+}
+
+.h5p-questionnaire .hide {
+  display: none;
 }
